@@ -11,8 +11,7 @@
 */
 
 // Your function code starts here...
-function rectArea(sideA, sideB)
-{
+function rectArea(sideA, sideB) {
   return sideA * sideB;
 }
 
@@ -39,8 +38,7 @@ var room3 = rectArea(4, 8);
  */
 
 // Your code goes here...
-function totalRoomsArea(area1, area2, area3)
-{
+function totalRoomsArea(area1, area2, area3) {
   return area1 + area2 + area3;
 }
 

@@ -15,11 +15,10 @@
  */
 
 // Your code goes here...
-function doesArrayIncludeItemsBetweenVals(arr, val1, val2)
-{
-  for ( var i = 0; i < arr.length; i++ )
+function doesArrayIncludeItemsBetweenVals(arr, val1, val2) {
+  for (var i = 0; i < arr.length; i++)
   {
-    if ( arr[i] > val1 && arr[i] < val2 )
+    if (arr[i] > val1 && arr[i] < val2)
     {
       return true;
     }
@@ -46,33 +45,30 @@ function doesArrayIncludeItemsBetweenVals(arr, val1, val2)
 
 // Your code goes here...
 // named
-function getValueWithConditionOne(num1, num2)
-{
-  if ( num1 == 40 && num2 == 40 )
+function getValueWithConditionOne(num1, num2) {
+  if (num1 == 40 && num2 == 40)
   {
     return 80;
   }
-  return 2 * (num1 + num2);
+  return((num1 + num2) * 2);
 }
 
 // arrow
-const getValueWithConditionTwo = (num1, num2) =>
-{
-  if ( num1 == 40 && num2 == 40 )
+const getValueWithConditionTwo = (num1, num2) => {
+  if (num1 == 40 && num2 == 40)
   {
     return 80;
   }
-  return 2 * (num1 + num2);
+  return((num1 + num2) * 2);
 }
 
 // variable
-const getValueWithConditionThree = function(num1, num2)
-{
-  if ( num1 == 40 && num2 == 40 )
+const getValueWithConditionThree = function(num1, num2) {
+  if (num1 == 40 && num2 == 40)
   {
     return 80;
   }
-  return 2 * (num1 + num2);
+  return((num1 + num2) * 2);
 }
 
 
